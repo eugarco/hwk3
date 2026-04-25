@@ -8,7 +8,7 @@ The study explores how hospital star ratings influence consumer choice and plan 
 1.  **Summary Statistics:** Longitudinal tables (2010–2015) tracking mean star ratings, enrollment figures, and market shares, including a specific look at unrated plans.
 2.  **Distributional Analysis:** Visualizations (bar graphs) of star rating distributions in 2010, 2012, and 2015 to identify industry-wide quality shifts.
 3.  **Cross-Sectional Regressions:** A series of OLS regressions by year, estimating the correlation between specific star rating tiers (3.0, 3.5, 4.0, 4.5+) and market share.
-4.  **Regression Discontinuity (RD) Design:** * Calculation of the "running variable" (the raw score before rounding into stars).
+4.  **Regression Discontinuity (RD) Design:** Calculation of running variable ( raw score before rounding into stars).
     * Estimation of the effect of crossing thresholds (e.g., 2.5 to 3.0 stars) on enrollments using specific bandwidths.
 5.  **Robustness & Diagnostic Checks:**
     * **Bandwidth Sensitivity:** Testing estimates across multiple bandwidths (0.1 to 0.15) to ensure results aren't driven by arbitrary window choices.
